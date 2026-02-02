@@ -4,7 +4,7 @@ let log_data;
 async function getPos() {
 try {
   const loc = await getCoordinate({
-    targetAccuracy: 20,
+    targetAccuracy: 3,
     sampleWaitMs: 10000,
     retry: 2,
     debug: true,
